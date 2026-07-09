@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 42001 | Dossier</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button class="menu-toggle">☰ Menu</button>
+    <aside class="sidebar">
+        <div class="sidebar-header"><h1>🛡️ ISO Dossier</h1></div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-link">📊 Dashboard</a>
+            <a href="iso27001.html" class="nav-link">📜 ISO 27001</a>
+            <a href="iso27002.html" class="nav-link">📘 ISO 27002</a>
+            <a href="iso42001.html" class="nav-link">🤖 ISO 42001 (AI)</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="page-header">
+            <h2>ISO/IEC 42001:2023 AI Management System</h2>
+            <p>Audit controls for the responsible development and use of AI systems.</p>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clause</th>
+                        <th>Control Name</th>
+                        <th>Audit Questionnaire</th>
+                        <th>Evidence Required</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="ai-table-body">
+                    <!-- Populated by JS -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
