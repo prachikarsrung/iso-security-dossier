@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO Security Dossier</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <button class="menu-toggle">☰ Menu</button>
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>🛡️ ISO Dossier</h1>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-link">📊 Dashboard</a>
+            <a href="iso27001.html" class="nav-link">📜 ISO 27001</a>
+            <a href="iso27002.html" class="nav-link">📘 ISO 27002</a>
+            <a href="iso42001.html" class="nav-link">🤖 ISO 42001 (AI)</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="page-header">
+            <h2>Security & Compliance Dashboard</h2>
+            <p>Centralized hub for ISO 27001, 27002, and 42001 implementation and auditing.</p>
+        </div>
+
+        <div class="grid grid-4" style="margin-bottom: 2rem;">
+            <div class="card">
+                <div class="card-icon bg-cyan">📋</div>
+                <h3>27</h3>
+                <p style="color: var(--text-secondary);">ISMS Clauses (4-10)</p>
+            </div>
+            <div class="card">
+                <div class="card-icon bg-purple">🛡️</div>
+                <h3>93</h3>
+                <p style="color: var(--text-secondary);">Annex A Controls</p>
+            </div>
+            <div class="card">
+                <div class="card-icon bg-emerald">🤖</div>
+                <h3>ISO 42001</h3>
+                <p style="color: var(--text-secondary);">AI Management System</p>
+            </div>
+            <div class="card">
+                <div class="card-icon bg-orange">🏢</div>
+                <h3>Tech Sol.</h3>
+                <p style="color: var(--text-secondary);">Implementation Cases</p>
+            </div>
+        </div>
+
+        <div class="grid grid-2">
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; color: var(--accent-cyan);">⚡ Quick Navigation</h3>
+                <a href="iso27001.html" class="card" style="display:block; text-decoration:none; margin-bottom:0.5rem; background: rgba(6, 182, 212, 0.05);">
+                    <strong>ISO 27001 Audit Checklist</strong><br>
+                    <small style="color: var(--text-secondary);">Review ISMS requirements and Annex A controls.</small>
+                </a>
+                <a href="iso27002.html" class="card" style="display:block; text-decoration:none; margin-bottom:0.5rem; background: rgba(139, 92, 246, 0.05);">
+                    <strong>ISO 27002 Implementation Guide</strong><br>
+                    <small style="color: var(--text-secondary);">Deep dive into control attributes and case studies.</small>
+                </a>
+                <a href="iso42001.html" class="card" style="display:block; text-decoration:none; background: rgba(16, 185, 129, 0.05);">
+                    <strong>ISO 42001 AI System Controls</strong><br>
+                    <small style="color: var(--text-secondary);">Audit questionnaire for AI policies and impacts.</small>
+                </a>
+            </div>
+            <div class="card" style="background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary)); border-color: var(--accent-emerald);">
+                <h3 style="margin-bottom: 1rem; color: var(--accent-emerald);">💡 Auditor's Tip</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    "When auditing ISO 27001 Annex A controls, always look for the 'triangle of evidence': 
+                    <span style="color: var(--accent-cyan);">1. Documented Policy</span>, 
+                    <span style="color: var(--accent-emerald);">2. Records of Implementation</span>, and 
+                    <span style="color: var(--accent-purple);">3. Interviews with Staff</span>."
+                </p>
+                <small style="color: var(--text-secondary);">— Based on ISO 27001 Auditing Best Practices</small>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
